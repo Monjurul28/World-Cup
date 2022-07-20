@@ -1,0 +1,173 @@
+/*-------- font -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@700&display=swap');
+
+/* common font style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+        /*------------------------------- 
+            First part of messi section css
+        ---------------------------------*/
+.border{
+    background-color: black;
+    border-radius: 10px;
+    padding-bottom: 5%;
+    margin: 80px;
+}
+.messi-section{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 5%;
+}
+.heading-1{
+    font-size: 70px;
+}
+.paragraph-1{
+    font-size: 16px;
+}
+.live-match a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+        /*------------------------------- 
+           News Part Style
+        ---------------------------------*/
+
+.News-info{
+    background: #161616;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.button-1{
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.button-1 a{
+    text-decoration: none;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.post img{
+    width: 312px;
+    height: 175px;
+
+}
+
+        /*------------------------------
+                Second part Style
+        ------------------------------- */
+.container{
+    display: flex;
+    margin-top: 8%;
+    margin: 80px;
+}
+.post-detail a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px; 
+    padding-left: 7%;
+ }
+.post .post-banner img{
+    width: 312px;
+    height: 175px;
+    left: 476px;
+    top: 826px;
+    padding-bottom: 2%;
+    border-radius: 10px;
+}
+.post-duration, post-comments{
+    display: flex;
+    align-items: center;
+
+}
+
+/*------------------------ 
+        footer part 
+  ------------------------*/
+
+.last-part{
+    background-color: black;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+    
+
+}
+.end-part{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+.under-section a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+.social-media a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+   
+}
+
+/* @media only screen and (min-width:688px) {
+    .messi-section{
+        display: flex;
+    }
+    
+} */
+
+            /*--------------------------- 
+               Upcoming match
+                ------------------------- */
+                .container-1{
+                    display: flex;
+                    margin-top: 10%;
+                    margin: 80px;
+                }
+                .post-detail a{
+                    text-decoration: none;
+                    border: 2px solid black;
+                    padding: 5px;
+                }
+                .posts-1{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-column-gap: 40px;
+                    grid-row-gap: 30px; 
+                    padding-left: 7%;
+                 }
+                .post-banner-1 img{
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .post-duration, post-comments{
+                    display: flex;
+                    align-items: center;
+                
+                }
+                
